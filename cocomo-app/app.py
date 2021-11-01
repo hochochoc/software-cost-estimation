@@ -10,7 +10,6 @@ def main():
 
 @app.route('/estimate')
 def estimate():
-    print("bbbb", request.args['kloc'])
     ems = {
         'acap' : [1.46,	1.19, 1.00, 0.86, 0.71], 
         'pcap' : [1.42, 1.17, 1.00, 0.86, 0.70], 	
